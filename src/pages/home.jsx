@@ -47,7 +47,7 @@ function Home({mobileNavMode, setMobileNavMode}) {
 
                 <div className="md:w-[50%] flex flex-col font-playfair text-slate-900">
                     <h2 className="mb-4">
-                        Hi, I'm a software engineer from Kathmandu, Nepal. I graduated with a Bachelor's in Computer Engineering from Pulchowk Campus, Tribhuvan University in 2023. Since then, I've worked for several startups on roles related to Web Development and Machine Learning. 
+                        Hi, I'm a software engineer from Kathmandu, Nepal. I graduated with a Bachelor's Degree in Computer Engineering from Pulchowk Campus, Tribhuvan University in 2023. Since then, I've worked for several startups on roles related to Web Development and Machine Learning. 
                     </h2>
 
                     <h1 className="font-bold text-2xl mb-2">Interests and Experience</h1>
