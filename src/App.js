@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import {Route, Routes} from 'react-router-dom';
+
+import Articles from './pages/articles';
+import Home from './pages/home';
+import Publications from './pages/publications';
+import Resume from './pages/resume';
+import Portfolio from './pages/portfolio';
+
+import { useState, useEffect } from 'react';
 
 function App() {
+  const [mobileNavMode, setMobileNavMode] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path='/' element={<Home mobileNavMode={mobileNavMode} setMobileNavMode={setMobileNavMode} />} />
+        <Route path='/portfolio' element={<Portfolio mobileNavMode={mobileNavMode} setMobileNavMode={setMobileNavMode} />} />
+        <Route path='/resume' element={<Resume mobileNavMode={mobileNavMode} setMobileNavMode={setMobileNavMode} />} />
+        <Route path='/publications' element={<Publications mobileNavMode={mobileNavMode} setMobileNavMode={setMobileNavMode} />} />
+        <Route path='/articles' element={<Articles mobileNavMode={mobileNavMode} setMobileNavMode={setMobileNavMode} />} />
+      </Routes>
+    </>
   );
 }
 
