@@ -18,11 +18,11 @@ function NavModal({isVisible, onClose}) {
         <div onClick={handleClose} id="wrapper" className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex flex-col">
             <div className="w-[75%] h-screen bg-white flex flex-col p-4 font-oswald">
                 <div className="flex md:p-8 hover:bg-gray-100 py-2">
-                    <a href="/" className="text-2xl">Home</a>
+                    <NavLink to="/" className="text-2xl">Home</NavLink>
                 </div>
                 
                 <div className="flex md:p-8 hover:bg-gray-100 py-2">
-                    <a href="/portfolio" className="text-2xl">Portfolio</a>
+                    <NavLink to="/portfolio" className="text-2xl">Portfolio</NavLink>
                 </div>
                 
                 <div className="flex md:p-8 hover:bg-gray-100 py-2"> 
@@ -30,11 +30,11 @@ function NavModal({isVisible, onClose}) {
                 </div>
                 
                 <div className="flex md:p-8 hover:bg-gray-100 py-2">
-                    <a href="/articles" className="text-2xl">Articles</a>
+                    <NavLink to="/articles" className="text-2xl">Articles</NavLink>
                 </div>
                 
                 <div className="flex md:p-8 hover:bg-gray-100 py-2">
-                    <a href="/publications"  className="text-2xl">Publications</a>
+                    <NavLink to="/publications"  className="text-2xl">Publications</NavLink>
                 </div>
             </div>
         </div>
