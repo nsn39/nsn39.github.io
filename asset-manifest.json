@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.030935d3.css",
+    "main.js": "/static/js/main.e64ec493.js",
+    "static/js/453.2684e94b.chunk.js": "/static/js/453.2684e94b.chunk.js",
+    "static/media/PlayfairDisplay-Bold.ttf": "/static/media/PlayfairDisplay-Bold.a44ebc27b80d88dc868d.ttf",
+    "static/media/PlayfairDisplay-Regular.ttf": "/static/media/PlayfairDisplay-Regular.693728812dc43ab34710.ttf",
+    "static/media/Oswald-Light.ttf": "/static/media/Oswald-Light.ba7a0a165ea1a69244a7.ttf",
+    "static/media/Oswald-Regular.ttf": "/static/media/Oswald-Regular.31bce04a1ae8549b1464.ttf",
+    "static/media/Oswald-ExtraLight.ttf": "/static/media/Oswald-ExtraLight.0525555534a2c5af6fe4.ttf",
+    "index.html": "/index.html",
+    "main.030935d3.css.map": "/static/css/main.030935d3.css.map",
+    "main.e64ec493.js.map": "/static/js/main.e64ec493.js.map",
+    "453.2684e94b.chunk.js.map": "/static/js/453.2684e94b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.030935d3.css",
+    "static/js/main.e64ec493.js"
+  ]
+}
