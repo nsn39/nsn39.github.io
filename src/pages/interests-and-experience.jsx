@@ -8,7 +8,7 @@ function InterestsAndExperience({ mobileNavMode, setMobileNavMode }) {
             <div className="min-h-screen bg-white text-gray-900">
                 <Navbar setMobileNavMode={setMobileNavMode} />
 
-                <main className="max-w-6xl mx-auto px-6 md:px-10 pb-12 pt-16">
+                <main className="max-w-6xl mx-auto px-6 md:px-10 pb-12 pt-16 font-oswald">
 
                     {/* ================= HEADER ================= */}
                     <section className="mb-12">
