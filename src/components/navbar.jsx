@@ -26,9 +26,13 @@ function Navbar({setMobileNavMode}) {
                 <div className="hidden md:flex md:p-8 hover:bg-gray-100">
                     <NavLink to="/" className={isLinkActive}>Home</NavLink>
                 </div>
+
+                <div className="hidden md:flex md:p-8 hover:bg-gray-100">
+                    <NavLink to="/experience" className={isLinkActive}>Interests & Experience</NavLink>
+                </div>
                 
                 <div className="hidden md:flex md:p-8 hover:bg-gray-100">
-                    <NavLink to="/portfolio" className={isLinkActive}>Portfolio</NavLink>
+                    <NavLink to="/projects" className={isLinkActive}>Projects</NavLink>
                 </div>
                 
                 <div className="hidden md:flex md:p-8 hover:bg-gray-100"> 
